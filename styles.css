@@ -1,0 +1,94 @@
+@import url('https://fonts.cdnfonts.com/css/nerko-one');
+@import url('https://fonts.cdnfonts.com/css/ubuntu');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: linear-gradient(#1BB5FE, #F62496);
+
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+
+section {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    line-height: 1;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    padding: 20px 20px;
+    margin: 20px;
+}
+a {
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    color: green;
+}
+
+.Whatsapp {
+    color: green;
+}
+
+.Facebook {
+    color: rgb(0, 34, 128);
+}
+
+.Whatsapp:hover {
+    color: white;
+}
+img {
+    margin: 8px 0;
+}
+.Facebook:hover {
+    color: white;
+}
+
+h1 {
+    font-family: 'Berlin Sans FB', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 3px 0;
+}
+
+section:hover {
+    background-color: rgb(255, 255, 255, 60%);
+    color: black;
+}
+
+.carrusel img {
+    border: 1px dashed black;
+    max-width: 48%;
+    /* Ajusta el tamaño máximo para que no ocupen más del 50% del contenedor */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+}
+
+.carrusel {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header h1{
+    background-color: #9A13B3;
+    color: white;
+    padding: 10px 0;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
+}
